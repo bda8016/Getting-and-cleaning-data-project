@@ -1,4 +1,4 @@
-Below is the .md version of CodeBook.  Please see the .docx version that is also uploaded for a more formatted version of the CodeBook.
+Below is the .md version of my CodeBook.  Please see the .docx version that is also uploaded for a more formatted version of the CodeBook.
 
 Links to original UCI HAR data and study explanation:
 
