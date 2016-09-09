@@ -5,6 +5,7 @@ Links to original UCI HAR data and study explanation:
 The information below describes the data frame objects created from the UCI HAR raw data referenced above:
 
 Raw training data objects (70% of volunteers)
+
 train_subjectIDs
 •	Numbers 1 – 30 indicating the study volunteer associated with each observation
 •	7,352 observations in 1 column
@@ -21,6 +22,7 @@ train_data
 •	Data frame
 
 Raw test data objects (30% of volunteers)
+
 test_subjectIDs
 •	Numbers 1 – 30 indicating the study volunteer associated with each observation
 •	2,947 observations in 1 column
@@ -37,6 +39,7 @@ test_data
 •	Data frame
 
 Other raw data objects
+
 activity_labels
 •	6 activities the participants performed - walking, walking_upstairs, Walking_downstairs, sitting, standing, laying
 •	6 observations in two columns
@@ -52,6 +55,7 @@ o	Column 2 = metric descriptions, i.e. "tBodyAcc-mean()-X"
 •	Data frame
 
 R objects created as part of creating the tidy data set
+
 training
 •	This data frame is a combination (created using the cbind function) of the following data frame objects described above:
 o	train_subjectIDs
