@@ -85,4 +85,6 @@
   library(dplyr)
     train_test_summary <- train_test_clean %>% group_by(volunteerid, activity) %>% summarise_each(funs(mean(.,na.rm=TRUE)))
     
-    
+#Below I use write.table() to create a .txt file containing the output from train_test_summary.  The .txt file is stored in my
+#working directory:
+  write.table(train_test_summary, file = "train_test_summary.txt", sep = "", row.names=FALSE)
