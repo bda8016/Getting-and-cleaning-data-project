@@ -1,3 +1,5 @@
+Below is the .md version of CodeBook.  Please see the .docx version that is also uploaded for a more formatted version of the CodeBook.
+
 Links to original UCI HAR data and study explanation:
 
 Data:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
